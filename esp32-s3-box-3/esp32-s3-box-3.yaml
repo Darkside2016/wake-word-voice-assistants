@@ -18,7 +18,7 @@ ota:
 
 # Bindet die herstellereigene Display- und Audio-Konfiguration ein
 packages:
-  box_config: !include common/base.yaml
+  box_config: !include ../common/base.yaml
 
 # SENSORKANÄLE AUS DEINEM HOME ASSISTANT
 text_sensor:
