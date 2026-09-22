@@ -16,9 +16,9 @@ logger:
 ota:
   - platform: esphome
 
-# Bindet die herstellereigene Display- und Audio-Konfiguration ein
+# Lädt die offizielle, fehlerfreie Hardware-Basis direkt aus der ESPHome-Zentrale
 packages:
-  box_config: !include ../common/base.yaml
+  box_config: github://esphome/wake-word-voice-assistants/esp32-s3-box-3/esp32-s3-box-3.yaml@main
 
 # SENSORKANÄLE AUS DEINEM HOME ASSISTANT
 text_sensor:
